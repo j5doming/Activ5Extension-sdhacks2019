@@ -78,8 +78,10 @@ class LoginViewController: UIViewController, A5DeviceDelegate {
     }
     
     func goToModifiedStats() {
-        self.performSegue(withIdentifier: "statsSegue", sender: nil)
-        
+        let storyboard = UIStoryboard(name: "ModifiedStats", bundle: nil)
+        let viewController = storyboard.instantiateViewController(identifier: "ModifiedStats")
+        viewController.modalPresentationStyle = .fullScreen
+        self.present(viewController, animated: true, completion: nil)
     }
     
     // required by A5DeviceDelegate
