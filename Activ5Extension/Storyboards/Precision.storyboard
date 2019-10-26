@@ -28,7 +28,7 @@
         <!--Accuracy Goal-->
         <scene sceneID="Lqh-Uq-K29">
             <objects>
-                <viewController id="zPX-F0-cZJ" customClass="GenStrengthViewController" customModule="Activ5Extension" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zPX-F0-cZJ" customClass="PrecisionViewController" customModule="Activ5Extension" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pwq-GL-NS6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

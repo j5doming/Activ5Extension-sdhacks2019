@@ -24,6 +24,8 @@
 		9E966008BCF76D9B9A8370C2 /* Pods_Activ5ExtensionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCAFF913109670635F4773A /* Pods_Activ5ExtensionTests.framework */; };
 		9FA2A2E815B3453CF13ACAE5 /* Pods_Activ5Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EE4819766B9B89EC01C1CD /* Pods_Activ5Extension.framework */; };
 		D10B5FA12364F17400B2F06B /* GenStrength.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10B5FA02364F17400B2F06B /* GenStrength.storyboard */; };
+		D10B5FA32364FF9300B2F06B /* PrecisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10B5FA22364FF9300B2F06B /* PrecisionViewController.swift */; };
+		D10B5FA52365004600B2F06B /* ActDurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10B5FA42365004600B2F06B /* ActDurationViewController.swift */; };
 		D191C9B623645C6600DA4491 /* GenStrengthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D191C9B523645C6600DA4491 /* GenStrengthViewController.swift */; };
 		D1CE845A2364AEDF002E29D5 /* Precision.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CE84592364AEDF002E29D5 /* Precision.storyboard */; };
 		D1CE845C2364B143002E29D5 /* ActDuration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CE845B2364B143002E29D5 /* ActDuration.storyboard */; };
@@ -73,6 +75,8 @@
 		9BCAFF913109670635F4773A /* Pods_Activ5ExtensionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Activ5ExtensionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EE4819766B9B89EC01C1CD /* Pods_Activ5Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Activ5Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10B5FA02364F17400B2F06B /* GenStrength.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GenStrength.storyboard; sourceTree = "<group>"; };
+		D10B5FA22364FF9300B2F06B /* PrecisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrecisionViewController.swift; sourceTree = "<group>"; };
+		D10B5FA42365004600B2F06B /* ActDurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActDurationViewController.swift; sourceTree = "<group>"; };
 		D191C9B523645C6600DA4491 /* GenStrengthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenStrengthViewController.swift; sourceTree = "<group>"; };
 		D1CE84592364AEDF002E29D5 /* Precision.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Precision.storyboard; sourceTree = "<group>"; };
 		D1CE845B2364B143002E29D5 /* ActDuration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ActDuration.storyboard; sourceTree = "<group>"; };
@@ -177,6 +181,8 @@
 				D191C9B523645C6600DA4491 /* GenStrengthViewController.swift */,
 				0DDF58D7236447D200905115 /* LoginViewController.swift */,
 				0D2F6C902364492B00DD0830 /* ModifiedStatsViewController.swift */,
+				D10B5FA22364FF9300B2F06B /* PrecisionViewController.swift */,
+				D10B5FA42365004600B2F06B /* ActDurationViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -465,6 +471,8 @@
 				0D487AC523640BC1008FE11E /* AppDelegate.swift in Sources */,
 				D191C9B623645C6600DA4491 /* GenStrengthViewController.swift in Sources */,
 				0D58FD2D236421DA00FF1B58 /* User.swift in Sources */,
+				D10B5FA32364FF9300B2F06B /* PrecisionViewController.swift in Sources */,
+				D10B5FA52365004600B2F06B /* ActDurationViewController.swift in Sources */,
 				0D487AC523640BC1008FE11E /* AppDelegate.swift in Sources */,
 				0DDF58D8236447D200905115 /* LoginViewController.swift in Sources */,
 				0D2F6C912364492B00DD0830 /* ModifiedStatsViewController.swift in Sources */,
