@@ -99,12 +99,12 @@
 		0D487AC323640BC1008FE11E /* Activ5Extension */ = {
 			isa = PBXGroup;
 			children = (
+				0D487AF623640C0F008FE11E /* Storyboards */,
+				0D487AF523640C04008FE11E /* ViewControllers */,
+				0D487AF423640BE8008FE11E /* Models */,
 				0D487AC423640BC1008FE11E /* AppDelegate.swift */,
 				0D487AC623640BC1008FE11E /* SceneDelegate.swift */,
-				0D487AC823640BC1008FE11E /* ViewController.swift */,
-				0D487ACA23640BC1008FE11E /* Main.storyboard */,
 				0D487ACD23640BC5008FE11E /* Assets.xcassets */,
-				0D487ACF23640BC5008FE11E /* LaunchScreen.storyboard */,
 				0D487AD223640BC5008FE11E /* Info.plist */,
 			);
 			path = Activ5Extension;
@@ -126,6 +126,30 @@
 				0D487AE823640BC5008FE11E /* Info.plist */,
 			);
 			path = Activ5ExtensionUITests;
+			sourceTree = "<group>";
+		};
+		0D487AF423640BE8008FE11E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0D487AF523640C04008FE11E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D487AC823640BC1008FE11E /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0D487AF623640C0F008FE11E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0D487ACF23640BC5008FE11E /* LaunchScreen.storyboard */,
+				0D487ACA23640BC1008FE11E /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
