@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2A62102364EE7B00240968 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2A620F2364EE7B00240968 /* Goal.swift */; };
 		0D2F6C8F2364491600DD0830 /* ModifiedStats.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2F6C8E2364491600DD0830 /* ModifiedStats.storyboard */; };
 		0D2F6C912364492B00DD0830 /* ModifiedStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F6C902364492B00DD0830 /* ModifiedStatsViewController.swift */; };
 		0D487AC523640BC1008FE11E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D487AC423640BC1008FE11E /* AppDelegate.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D2A620F2364EE7B00240968 /* Goal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
 		0D2F6C8E2364491600DD0830 /* ModifiedStats.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ModifiedStats.storyboard; sourceTree = "<group>"; };
 		0D2F6C902364492B00DD0830 /* ModifiedStatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiedStatsViewController.swift; sourceTree = "<group>"; };
 		0D487AC123640BC1008FE11E /* Activ5Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Activ5Extension.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +165,7 @@
 		0D487AF423640BE8008FE11E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0D2A620F2364EE7B00240968 /* Goal.swift */,
 				0D58FD2C236421DA00FF1B58 /* User.swift */,
 			);
 			path = Models;
@@ -458,6 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D2A62102364EE7B00240968 /* Goal.swift in Sources */,
 				0D487AC523640BC1008FE11E /* AppDelegate.swift in Sources */,
 				D191C9B623645C6600DA4491 /* GenStrengthViewController.swift in Sources */,
 				0D58FD2D236421DA00FF1B58 /* User.swift in Sources */,
