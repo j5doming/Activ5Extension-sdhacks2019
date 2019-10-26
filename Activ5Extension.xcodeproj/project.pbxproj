@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		0D487AD123640BC5008FE11E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D487ACF23640BC5008FE11E /* LaunchScreen.storyboard */; };
 		0D487ADC23640BC5008FE11E /* Activ5ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D487ADB23640BC5008FE11E /* Activ5ExtensionTests.swift */; };
 		0D487AE723640BC5008FE11E /* Activ5ExtensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D487AE623640BC5008FE11E /* Activ5ExtensionUITests.swift */; };
+		0D58FD2D236421DA00FF1B58 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D58FD2C236421DA00FF1B58 /* User.swift */; };
 		79F50C6CB670C0735347BCCA /* Pods_Activ5Extension_Activ5ExtensionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF00010C318B12E07BB59E2F /* Pods_Activ5Extension_Activ5ExtensionUITests.framework */; };
 		9E966008BCF76D9B9A8370C2 /* Pods_Activ5ExtensionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCAFF913109670635F4773A /* Pods_Activ5ExtensionTests.framework */; };
 		9FA2A2E815B3453CF13ACAE5 /* Pods_Activ5Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EE4819766B9B89EC01C1CD /* Pods_Activ5Extension.framework */; };
@@ -52,6 +53,7 @@
 		0D487AE223640BC5008FE11E /* Activ5ExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Activ5ExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D487AE623640BC5008FE11E /* Activ5ExtensionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activ5ExtensionUITests.swift; sourceTree = "<group>"; };
 		0D487AE823640BC5008FE11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D58FD2C236421DA00FF1B58 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		11AF2F9D6DCC25C1B5130858 /* Pods-Activ5Extension-Activ5ExtensionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Activ5Extension-Activ5ExtensionUITests.release.xcconfig"; path = "Target Support Files/Pods-Activ5Extension-Activ5ExtensionUITests/Pods-Activ5Extension-Activ5ExtensionUITests.release.xcconfig"; sourceTree = "<group>"; };
 		462E794A8EE972E0F2C7DA73 /* Pods-Activ5ExtensionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Activ5ExtensionTests.debug.xcconfig"; path = "Target Support Files/Pods-Activ5ExtensionTests/Pods-Activ5ExtensionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4F0BDDED4F1EDE43F9439F54 /* Pods-Activ5Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Activ5Extension.debug.xcconfig"; path = "Target Support Files/Pods-Activ5Extension/Pods-Activ5Extension.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 		0D487AF423640BE8008FE11E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0D58FD2C236421DA00FF1B58 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -179,7 +182,6 @@
 				462E794A8EE972E0F2C7DA73 /* Pods-Activ5ExtensionTests.debug.xcconfig */,
 				EFB67CA454C6953CF1AA11FD /* Pods-Activ5ExtensionTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -432,6 +434,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D58FD2D236421DA00FF1B58 /* User.swift in Sources */,
 				0D487AC923640BC1008FE11E /* ViewController.swift in Sources */,
 				0D487AC523640BC1008FE11E /* AppDelegate.swift in Sources */,
 				0D487AC723640BC1008FE11E /* SceneDelegate.swift in Sources */,

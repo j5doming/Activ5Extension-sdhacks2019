@@ -7,6 +7,7 @@ target 'Activ5Extension' do
 
   # Pods for Activ5Extension
   pod 'Activ5Device'
+  pod 'ActivSync', '1.0.2'
 
   target 'Activ5ExtensionTests' do
     inherit! :search_paths
