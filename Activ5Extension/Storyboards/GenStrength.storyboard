@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6aI-jY-7dN">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
@@ -7,11 +7,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Accuracy-->
+        <!--Strength-->
         <scene sceneID="Wjo-sO-xYD">
             <objects>
-                <navigationController id="6aI-jY-7dN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Accuracy" id="VJA-jW-9Kr"/>
+                <navigationController storyboardIdentifier="GenStrength" id="6aI-jY-7dN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Strength" id="VJA-jW-9Kr"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6Ot-nf-Is6">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -33,8 +33,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKx-KE-rjI">
-                                <rect key="frame" x="135" y="529" width="145" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKx-KE-rjI">
+                                <rect key="frame" x="170.5" y="431" width="73" height="34"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <accessibility key="accessibilityConfiguration" label="Set Goal"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
@@ -66,6 +66,10 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="wNq-z2-IOe" firstAttribute="top" secondItem="kn3-dK-eNG" secondAttribute="top" id="9Sk-fG-zNG"/>
+                                            <constraint firstItem="A64-OZ-Vbl" firstAttribute="top" secondItem="kn3-dK-eNG" secondAttribute="top" id="hzq-U9-aDR"/>
+                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sXu-RB-n58">
                                         <rect key="frame" x="0.0" y="52" width="398" height="34"/>
@@ -88,6 +92,10 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="hIP-3C-MMM" firstAttribute="top" secondItem="aZq-0N-O2d" secondAttribute="top" id="F1W-mI-4hU"/>
+                                            <constraint firstItem="gIG-C9-zEx" firstAttribute="top" secondItem="aZq-0N-O2d" secondAttribute="top" id="i6m-MO-6SY"/>
+                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MB9-qc-ueT">
                                         <rect key="frame" x="0.0" y="104" width="398" height="34"/>
@@ -110,6 +118,10 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Qho-wO-6OO" firstAttribute="top" secondItem="0LM-Xl-MnG" secondAttribute="top" id="kiq-So-nVC"/>
+                                            <constraint firstItem="SRK-7V-9M5" firstAttribute="top" secondItem="0LM-Xl-MnG" secondAttribute="top" id="zLE-5z-QoQ"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
                                 <constraints>
@@ -119,12 +131,11 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="YBB-oz-RjE" firstAttribute="leading" secondItem="hYB-R7-q8d" secondAttribute="leading" constant="8" id="FhI-md-c7e"/>
-                            <constraint firstItem="GKx-KE-rjI" firstAttribute="top" secondItem="YBB-oz-RjE" secondAttribute="bottom" constant="347" id="T4T-WI-KqO"/>
-                            <constraint firstItem="YBB-oz-RjE" firstAttribute="top" secondItem="hYB-R7-q8d" secondAttribute="top" constant="8" id="b7S-RW-9JA"/>
-                            <constraint firstItem="hYB-R7-q8d" firstAttribute="trailing" secondItem="GKx-KE-rjI" secondAttribute="trailing" constant="134" id="def-El-uvn"/>
-                            <constraint firstItem="hYB-R7-q8d" firstAttribute="trailing" secondItem="YBB-oz-RjE" secondAttribute="trailing" constant="8" id="e7d-Lj-fi1"/>
-                            <constraint firstItem="GKx-KE-rjI" firstAttribute="leading" secondItem="hYB-R7-q8d" secondAttribute="leading" constant="135" id="nWg-ps-Iiy"/>
+                            <constraint firstItem="hYB-R7-q8d" firstAttribute="trailing" secondItem="YBB-oz-RjE" secondAttribute="trailing" constant="8" id="M7n-QR-qIA"/>
+                            <constraint firstItem="YBB-oz-RjE" firstAttribute="top" secondItem="hYB-R7-q8d" secondAttribute="top" constant="8" id="RAr-qr-ws2"/>
+                            <constraint firstItem="GKx-KE-rjI" firstAttribute="centerX" secondItem="NkL-ll-F0r" secondAttribute="centerX" id="dub-su-zcH"/>
+                            <constraint firstItem="YBB-oz-RjE" firstAttribute="leading" secondItem="hYB-R7-q8d" secondAttribute="leading" constant="8" id="i2n-V7-JzL"/>
+                            <constraint firstItem="GKx-KE-rjI" firstAttribute="centerY" secondItem="NkL-ll-F0r" secondAttribute="centerY" id="pH7-UF-Kfq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hYB-R7-q8d"/>
                     </view>
