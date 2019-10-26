@@ -1,5 +1,5 @@
 //
-//  GenStrengthViewController.swift
+//  PrecisionViewController.swift
 //  Activ5Extension
 //
 //  Created by Cheery Wang on 10/26/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GenStrengthViewController: UIViewController {
+class PrecisionViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
