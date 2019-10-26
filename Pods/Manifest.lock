@@ -1,0 +1,16 @@
+PODS:
+  - Activ5Device (1.0.1)
+
+DEPENDENCIES:
+  - Activ5Device
+
+SPEC REPOS:
+  trunk:
+    - Activ5Device
+
+SPEC CHECKSUMS:
+  Activ5Device: 9cd774f5781cac5c3c58d5198d03c2f11b925e22
+
+PODFILE CHECKSUM: 54714356c85c122180e598b50832a40da26d2a48
+
+COCOAPODS: 1.8.4
