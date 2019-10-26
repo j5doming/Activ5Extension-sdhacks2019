@@ -34,7 +34,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1nh-LD-BMb">
-                                <rect key="frame" x="135" y="529" width="145" height="58"/>
+                                <rect key="frame" x="135" y="529" width="145" height="60"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <accessibility key="accessibilityConfiguration" label="Set Goal"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
