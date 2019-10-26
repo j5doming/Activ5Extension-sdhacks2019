@@ -1,0 +1,11 @@
+framework module ActivSync {
+  umbrella header "ActivSync-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ActivSync.Swift {
+    header "ActivSync-Swift.h"
+    requires objc
+}

@@ -1,16 +1,28 @@
 PODS:
   - Activ5Device (1.0.1)
+  - ActivSync (1.0.2):
+    - Alamofire
+    - SwiftLint
+  - Alamofire (4.9.0)
+  - SwiftLint (0.36.0)
 
 DEPENDENCIES:
   - Activ5Device
+  - ActivSync (= 1.0.2)
 
 SPEC REPOS:
   trunk:
     - Activ5Device
+    - ActivSync
+    - Alamofire
+    - SwiftLint
 
 SPEC CHECKSUMS:
   Activ5Device: 9cd774f5781cac5c3c58d5198d03c2f11b925e22
+  ActivSync: b1389fb692011781a91ce717ab57e42a84c43e93
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  SwiftLint: fc9859e4e1752340664851f667bb1898b9c90114
 
-PODFILE CHECKSUM: 54714356c85c122180e598b50832a40da26d2a48
+PODFILE CHECKSUM: 79f64356d88da00f81d6cd26de03697f2ec7fad3
 
 COCOAPODS: 1.8.4
