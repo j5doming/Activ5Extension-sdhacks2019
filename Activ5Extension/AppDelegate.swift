@@ -8,6 +8,7 @@
 
 import UIKit
 import Activ5Device
+import ActivSync
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         A5DeviceManager.initializeDeviceManager()
+        if let url = URL(string: "https://sdhacks.activ5.com") {
+            ActivSync.configure(url: url)
+        }
         return true
     }
 
