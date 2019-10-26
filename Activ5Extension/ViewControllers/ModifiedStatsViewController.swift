@@ -7,13 +7,27 @@
 //
 
 import UIKit
+import ActivSync
 
 class ModifiedStatsViewController: UIViewController {
-
+    var strengthGoal: Goal? = nil
+    var acurracyGoal: Goal? = nil
+    var activityGoal: Goal? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+    }
+    
+    func getExercises() {
+        let body: [String: Any] = [:]
+        ActivSync.request(route: .getExerciseHistory, body: body) { (_, data, error)  in
+            
+            body.forEach { element in
+                print(element)
+            }
+            
+        }
     }
     
 
