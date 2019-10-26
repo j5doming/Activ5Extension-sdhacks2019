@@ -11,6 +11,10 @@
 		0D2F6C912364492B00DD0830 /* ModifiedStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F6C902364492B00DD0830 /* ModifiedStatsViewController.swift */; };
 		0D487AC523640BC1008FE11E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D487AC423640BC1008FE11E /* AppDelegate.swift */; };
 		0D487AC723640BC1008FE11E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D487AC623640BC1008FE11E /* SceneDelegate.swift */; };
+		0D487AC923640BC1008FE11E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D487AC823640BC1008FE11E /* LoginViewController.swift */; };
+		0D487ACC23640BC1008FE11E /* GenStrength.storyboard in Resources */ = {isa =
+    PBXBuildFile; fileRef = 0D487ACA23640BC1008FE11E /* GenStrength.storyboard
+    */; };
 		0D487ACE23640BC5008FE11E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D487ACD23640BC5008FE11E /* Assets.xcassets */; };
 		0D487AD123640BC5008FE11E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D487ACF23640BC5008FE11E /* LaunchScreen.storyboard */; };
 		0D487ADC23640BC5008FE11E /* Activ5ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D487ADB23640BC5008FE11E /* Activ5ExtensionTests.swift */; };
@@ -21,6 +25,9 @@
 		79F50C6CB670C0735347BCCA /* Pods_Activ5Extension_Activ5ExtensionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF00010C318B12E07BB59E2F /* Pods_Activ5Extension_Activ5ExtensionUITests.framework */; };
 		9E966008BCF76D9B9A8370C2 /* Pods_Activ5ExtensionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCAFF913109670635F4773A /* Pods_Activ5ExtensionTests.framework */; };
 		9FA2A2E815B3453CF13ACAE5 /* Pods_Activ5Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EE4819766B9B89EC01C1CD /* Pods_Activ5Extension.framework */; };
+		D191C9B623645C6600DA4491 /* GenStrengthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D191C9B523645C6600DA4491 /* GenStrengthViewController.swift */; };
+		D1CE845A2364AEDF002E29D5 /* Precision.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CE84592364AEDF002E29D5 /* Precision.storyboard */; };
+		D1CE845C2364B143002E29D5 /* ActDuration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CE845B2364B143002E29D5 /* ActDuration.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +53,8 @@
 		0D487AC123640BC1008FE11E /* Activ5Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Activ5Extension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D487AC423640BC1008FE11E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D487AC623640BC1008FE11E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0D487AC823640BC1008FE11E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0D487ACB23640BC1008FE11E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/GenStrength.storyboard; sourceTree = "<group>"; };
 		0D487ACB23640BC1008FE11E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		0D487ACD23640BC5008FE11E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D487AD023640BC5008FE11E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,6 +74,9 @@
 		6A86B3DB7B87DE55FC52C1A3 /* Pods-Activ5Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Activ5Extension.release.xcconfig"; path = "Target Support Files/Pods-Activ5Extension/Pods-Activ5Extension.release.xcconfig"; sourceTree = "<group>"; };
 		9BCAFF913109670635F4773A /* Pods_Activ5ExtensionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Activ5ExtensionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EE4819766B9B89EC01C1CD /* Pods_Activ5Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Activ5Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D191C9B523645C6600DA4491 /* GenStrengthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenStrengthViewController.swift; sourceTree = "<group>"; };
+		D1CE84592364AEDF002E29D5 /* Precision.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Precision.storyboard; sourceTree = "<group>"; };
+		D1CE845B2364B143002E29D5 /* ActDuration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ActDuration.storyboard; sourceTree = "<group>"; };
 		EF00010C318B12E07BB59E2F /* Pods_Activ5Extension_Activ5ExtensionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Activ5Extension_Activ5ExtensionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB67CA454C6953CF1AA11FD /* Pods-Activ5ExtensionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Activ5ExtensionTests.release.xcconfig"; path = "Target Support Files/Pods-Activ5ExtensionTests/Pods-Activ5ExtensionTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,6 +174,7 @@
 		0D487AF523640C04008FE11E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				D191C9B523645C6600DA4491 /* GenStrengthViewController.swift */,
 				0DDF58D7236447D200905115 /* LoginViewController.swift */,
 				0D2F6C902364492B00DD0830 /* ModifiedStatsViewController.swift */,
 			);
@@ -172,6 +185,9 @@
 			isa = PBXGroup;
 			children = (
 				0D487ACF23640BC5008FE11E /* LaunchScreen.storyboard */,
+				0D487ACA23640BC1008FE11E /* GenStrength.storyboard */,
+				D1CE84592364AEDF002E29D5 /* Precision.storyboard */,
+				D1CE845B2364B143002E29D5 /* ActDuration.storyboard */,
 				0D487ACA23640BC1008FE11E /* Login.storyboard */,
 				0D2F6C8E2364491600DD0830 /* ModifiedStats.storyboard */,
 			);
@@ -313,6 +329,9 @@
 				0DC692B82364506400541BBF /* Login.storyboard in Resources */,
 				0D487AD123640BC5008FE11E /* LaunchScreen.storyboard in Resources */,
 				0D487ACE23640BC5008FE11E /* Assets.xcassets in Resources */,
+				D1CE845C2364B143002E29D5 /* ActDuration.storyboard in Resources */,
+				0D487ACC23640BC1008FE11E /* GenStrength.storyboard in Resources */,
+				D1CE845A2364AEDF002E29D5 /* Precision.storyboard in Resources */,
 				0D2F6C8F2364491600DD0830 /* ModifiedStats.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +460,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D487AC523640BC1008FE11E /* AppDelegate.swift in Sources */,
+				D191C9B623645C6600DA4491 /* GenStrengthViewController.swift in Sources */,
 				0D58FD2D236421DA00FF1B58 /* User.swift in Sources */,
 				0D487AC523640BC1008FE11E /* AppDelegate.swift in Sources */,
 				0DDF58D8236447D200905115 /* LoginViewController.swift in Sources */,
@@ -481,6 +502,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		0D487ACA23640BC1008FE11E /* GenStrength.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D487ACB23640BC1008FE11E /* Base */,
+			);
+			name = GenStrength.storyboard;
+			sourceTree = "<group>";
+		};
 		0D487ACA23640BC1008FE11E /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
