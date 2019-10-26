@@ -64,7 +64,8 @@ class LoginViewController: UIViewController, A5DeviceDelegate {
     }
     
     func signUpUser() {
-        guard let firstname = firstNameTextField.text, let lastname = lastNameTextField.text, let email = emailTextField.text, let password = passwordTextField.text else { return }
+        guard let firstname = firstNameTextField.text, let lastname = lastNameTextField.text,
+            let email = emailTextField.text, let password = passwordTextField.text else { return }
             
         let user = NewActivUser(email: email, password: password, fullName: "\(firstname) \(lastname)")
         
