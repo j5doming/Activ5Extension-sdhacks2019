@@ -41,6 +41,9 @@
                                 <state key="normal" title="Set Goal">
                                     <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="onSetGoal:" destination="zPX-F0-cZJ" eventType="touchUpInside" id="TGC-Jo-zRR"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="bXb-iT-4GV">
                                 <rect key="frame" x="8" y="96" width="398" height="86"/>
@@ -107,6 +110,10 @@
                         <viewLayoutGuide key="safeArea" id="X96-Xs-3I9"/>
                     </view>
                     <navigationItem key="navigationItem" title="Accuracy Goal" id="4xZ-YK-oFu"/>
+                    <connections>
+                        <outlet property="improveAvgTextField" destination="J6B-Ym-2KN" id="2Mg-Nv-bxP"/>
+                        <outlet property="weeklyAvgTextField" destination="ujA-ry-XGQ" id="JTu-m3-cXU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e1C-Tt-R0Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

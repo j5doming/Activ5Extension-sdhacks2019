@@ -26,12 +26,12 @@ class LoginViewController: UIViewController, A5DeviceDelegate {
         A5DeviceManager.delegate = self
     }
     
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         if ActivSync.auth.isLoggedIn {
             print("A user is already logged in")
             goToModifiedStats()
-            return
         }
     }
     

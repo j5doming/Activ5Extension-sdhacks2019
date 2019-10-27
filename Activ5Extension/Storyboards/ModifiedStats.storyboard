@@ -60,7 +60,7 @@
         <!--Goals-->
         <scene sceneID="LpC-oD-Dhl">
             <objects>
-                <tabBarController id="K8m-GX-b4o" sceneMemberID="viewController">
+                <tabBarController id="K8m-GX-b4o" customClass="GoalsTabBarViewController" customModule="Activ5Extension" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="Goals" id="eMT-mH-VxS"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LBy-4H-XCk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -96,7 +96,7 @@
         <scene sceneID="hpb-Wn-yky">
             <objects>
                 <viewControllerPlaceholder storyboardIdentifier="Precision" storyboardName="Precision" id="Nsv-Wh-xc7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Precision" id="nWl-i0-dKh"/>
+                    <tabBarItem key="tabBarItem" title="Accuracy" id="nWl-i0-dKh"/>
                     <navigationItem key="navigationItem" id="ggh-Lx-5eh"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FOJ-Xk-fmD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
