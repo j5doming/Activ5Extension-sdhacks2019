@@ -17,7 +17,7 @@ enum GoalType {
 struct Goal {
     var type: GoalType
     var dateSet: Date
-    var goalDate: Date
+    var goalDate: Date?
     var goal: Double
     
     func getGoal() -> Double {

@@ -87,10 +87,10 @@
         <!--ModifiedStats-->
         <scene sceneID="2Wc-mb-SSA">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S0b-zr-w9j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder storyboardName="ModifiedStats" id="2Fr-px-8vX" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="guW-6E-DAy"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="S0b-zr-w9j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="744" y="117"/>
         </scene>

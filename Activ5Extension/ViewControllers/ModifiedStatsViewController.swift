@@ -9,41 +9,37 @@
 import UIKit
 import ActivSync
 
-class ModifiedStatsViewController: UIViewController {
+class ModifiedStatsViewController: UIViewController, GoalDelegate {
     var goals = [Goal]()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
         gatherGoals()
     }
     
-    func gatherGoals() {
-        
+    override func viewWillAppear(_ animated: Bool) {
     }
     
-    func getExercises() {
-        let body = [String: Any]()
-        ActivSync.request(route: .getExerciseHistory, body: body) { (_, data, error)  in
-            
-            body.forEach { element in
-                print(element)
-            }
-            
+    func gatherGoals() {
+        goals.forEach { goal in
+            print(goal)
         }
     }
     
+    func addGoal(_ goal: Goal) {
+        goals.append(goal)
+    }
+    
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+     // MARK: - Navigation
+
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+       //  Pass the selected object to the new view controller.
+        let vc = segue.destination as! GoalsTabBarViewController
+        vc.goalDelegate = self
     }
-    */
 
 }
